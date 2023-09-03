@@ -16,8 +16,12 @@
     font-size: 30px;
     align-items:center;
     gap: 40px;
-    padding: 0;
-;
+    padding: 0;}
+
+.header-menu a:hover {
+    color:rgb(108, 150, 108);}
+.header-menu > .active{
+    color: #FFDB58;
 }
 a {
     text-decoration: none;
