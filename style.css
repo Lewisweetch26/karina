@@ -1,5 +1,5 @@
 * {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     background-color: #004225;
     margin: 0;
 font-family: 'Times New Roman', Times, serif;}
@@ -44,9 +44,9 @@ a {
 .message-container {
     display: flex;
     align-items: center;
-    justify-content: center;
     padding: 50px;
-    background-color:#004225;}
+    background-color:#004225;
+padding-bottom: 100px;}
 
 .message {
     display: flex;
@@ -76,6 +76,73 @@ border-radius: 25px; }
     border-radius: 25px;
     background-color:rgb(108, 150, 108);
     color: lightyellow;
-    border: 2px solid #004225;
+    border: 2px solid #004225;}
 
+.video-section {
+    display: flex;
+    padding: 30px;
+    background-color: lightyellow;
+    
+}
+
+.videocontents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding-bottom: 100px; */
+    background-color: lightyellow;
+    flex: 1;
+
+}
+
+.video-title {
+    font-size: 40px;
+    color: #004225;
+    font-weight: bold;
+    margin: 10px 0px 40px 0px;
+    background-color: lightyellow;
+    
+}
+
+.video-message {
+    text-align: center;
+    font-size: 20px;
+    background-color: lightyellow;
+    display: flex;
+   color: #004225;
+    max-width: 1200px;
+}
+
+.video {
+    max-width: 100px;
+    max-height: 500px;
+    padding: 170px 375px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 5px solid rgb(108, 150, 108) ;
+   
+}
+
+.mid-section {
+        display: flex;
+background-color:#004225;
+justify-content: space-around;
+}
+
+
+.boxes   {
+    max-width: 600px;
+    background-color: lightyellow;
+    padding: 10px;
+    border-radius: 10px;
+}
+.boxes > div {
+    background-color: lightyellow;
+margin-bottom: 16px;}
+
+.subtitle {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
 }
