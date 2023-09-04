@@ -1,5 +1,5 @@
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: #004225;
     margin: 0;
 font-family: 'Times New Roman', Times, serif;}
@@ -53,7 +53,7 @@ padding-bottom: 100px;}
     align-items: center;
     padding: 20px;
     background-color: lightyellow;
-border-radius: 25px; }
+border-radius: 10px; }
 
 .content {
     display: flex;
@@ -73,7 +73,7 @@ border-radius: 25px; }
 .content > button {
     font-size: 18px;
     padding: 10px 30px;
-    border-radius: 25px;
+    border-radius: 10px;
     background-color:rgb(108, 150, 108);
     color: lightyellow;
     border: 2px solid #004225;}
@@ -90,7 +90,7 @@ border-radius: 25px; }
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* padding-bottom: 100px; */
+
     background-color: lightyellow;
     flex: 1;
 
@@ -121,3 +121,113 @@ border-radius: 25px; }
     margin-top: 30px;
     border-radius: 10px;
     border: 5px solid rgb(108, 150, 108) ;}
+
+.photo {
+    height: 180px;
+    width: auto ;
+    padding: 15px;
+background-color:#004225;
+border-radius: 10px;}   
+
+.three-box-container {
+    display: flex;
+    padding: 50px;}
+
+.content-container {
+  display: flex;
+  gap: 30px;
+padding-top: 50px;}
+
+.friend {
+max-width: 850px;
+background-color: lightyellow;
+font-size: 18px;
+padding: 20px;
+display: flex;
+border-radius: 10px;
+flex-direction: column;
+align-items: center;}
+
+.left-side {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between; 
+gap: 40px;
+border-radius: 10px;}
+
+.photo-button {
+    padding: 10px 30px;
+    border-radius: 10px;
+border: 2px solid #004225;
+color: lightyellow;
+background-color: rgb(108, 150, 108);
+margin-bottom: 10px;}
+
+.book, .photograph{
+    background-color: lightyellow;
+    border-radius: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;}
+
+.book-cell {
+    display: flex;
+    gap: 10px;
+align-items: center;
+padding: 20px;
+border-radius: 0px 0px 10px 10px;
+background-color: lightyellow;}
+
+.smallheader {
+    font-size: 24px;
+    background-color: lightyellow;
+    text-align: center;
+    font-weight: bold;
+    color: #004225;
+    margin-top:16px ; 
+    width: 300px;}
+
+.photo-cell {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: lightyellow;}
+
+.smalltext{
+background-color: lightyellow;
+font-size: 18px;
+text-align: center;
+padding: 20px;
+color: #004225;}
+
+.friend-cell {
+    background-color: lightyellow;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20PX;
+    margin-bottom: -0px;
+    padding-bottom: 10px;
+}
+
+.friendtext {
+    /* margin: 20px; */
+    padding: 15px;
+    background-color: rgb(108, 150, 108);
+    border: solid 2px #004225;
+    border-radius: 10PX;}
+
+.friend-button {
+    /* padding: 10px 50px; */
+    margin-top: 20px;
+    border: none;
+    align-self: flex-end;
+    background-color: lightyellow;
+    color: #004225  ;
+    max-width: 300px;
+    font-size: 18px;
+}
