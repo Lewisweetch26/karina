@@ -1,0 +1,33 @@
+* {
+    /* border: 1px solid red; */
+    background-color: lightyellow;
+    margin: 0;
+font-family: 'Times New Roman', Times, serif;}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+border-bottom: 10px solid #004225;}
+.header-menu {
+    display: flex;
+    list-style-type: none;
+    font-size: 30px;
+    align-items:center;
+    gap: 40px;
+    padding: 0 15px;}
+
+.header-menu a:hover {
+    color:rgb(108, 150, 108);}
+
+.header-menu > .active{
+    color: #FFDB58;}
+
+a {
+    text-decoration: none;
+    color: #004225;}
+
+.logo {
+    width: auto;
+    height: 70px;}
