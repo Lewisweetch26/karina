@@ -238,6 +238,13 @@ color: #004225;}
     border: solid 2px #004225;
     border-radius: 10PX;}
 
+    .bold {
+        background-color: rgb(108, 150, 108);
+        color: #004225;
+        display: flex;
+        justify-content: flex-end;
+        font-weight: bold;}
+
 .friend-button {
     /* padding: 10px 50px; */
     margin-top: 20px;
